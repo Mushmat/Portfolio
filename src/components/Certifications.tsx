@@ -16,34 +16,26 @@ interface Certification {
 
 const Certifications = () => {
   const certifications: Certification[] = [
+    
     {
-      title: "Google Code-in 2019 - World Top 10",
-      issuer: "Google Code-in",
-      issueDate: "January 2020",
-      credentialId: "6312418381135872",
-      verificationUrl: "https://drive.google.com/file/d/1ixwoyIKkqs7MdWxXpza4YTs6il4zfL2x/view?usp=sharing",
-      logo: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMhE8INtZ9nb7fR2Rz9BfpRK1f26NMv6DO_7YPjf_PRpD8BtQeTGDjDN8dXtZtpMDOP9tsFxc2QLWvdjNj10f5Ng3fIFj5szRWonrPekvxD6kdA2GaPNRtnlfhF_1wh9J8qDUqR3BFpZ8/s1600/GCI+-+Vertical+-+Gray+Text+-+White+BG.png",
-      category: "badge",
-      skills: ["Version Control", "Open Source Contribution", "Python"]
-    },
-    {
-      title: "Full Stack Web Development Specialization",
-      issuer: "Coursera",
-      issueDate: "January 2024",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=100&h=100&fit=crop",
+      title: "First Ethical Hacking Course",
+      issuer: "ZSecurity/Udemy",
+      issueDate: "June 2025",
+      credentialId:"UC-57aadc7b-5f31-49bd-9e9d-60bf91eaaee7",
+      verificationUrl: "https://www.udemy.com/certificate/UC-57aadc7b-5f31-49bd-9e9d-60bf91eaaee7/",
+      logo: "https://bcdn.mindler.com/bloglive/wp-content/uploads/2016/08/06132948/Ethical-hacking-cover-pic-770x476.jpg",
       category: "course",
-      skills: ["React", "Node.js", "MongoDB", "Express"]
+      skills: ["Wireshark", "NMap", "Network Security", "Vulnerability Assessment"]
     },
     {
-      title: "Google Cloud Professional Developer",
-      issuer: "Google Cloud",
-      issueDate: "December 2023",
-      credentialId: "GCP-98765-43210",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=100&h=100&fit=crop",
-      category: "certification",
-      skills: ["GCP", "Cloud Functions", "Kubernetes"]
+      title: "Course on Defensive Cyber Security",
+      issuer: "StationX/Udemy",
+      issueDate: "June 2025",
+      credentialId: "UC-0441f0cd-95d0-430a-b879-b9b9974476aa",
+      verificationUrl: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-0441f0cd-95d0-430a-b879-b9b9974476aa.pdf",
+      logo: "https://cdn.prod.website-files.com/651e8862627bb76b91f2a4e6/66968ed362180b62481f4cb2_Hero%20Image%20Essential%20Cybersecurity%20Frameworks%20for%20Enhancing%20Defense%20Sector%20Security-p-2000.jpg",
+      category: "course",
+      skills: ["Snort", "Intrusion Detection", "Firewall Management"]
     },
     {
       title: "Machine Learning with Python",
@@ -91,6 +83,16 @@ const Certifications = () => {
       logo: "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=100&h=100&fit=crop",
       category: "badge",
       skills: ["Docker", "Containerization", "Microservices"]
+    },
+    {
+      title: "Google Code-in 2019 - World Top 10",
+      issuer: "Google Code-in",
+      issueDate: "January 2020",
+      credentialId: "6312418381135872",
+      verificationUrl: "https://drive.google.com/file/d/1ixwoyIKkqs7MdWxXpza4YTs6il4zfL2x/view?usp=sharing",
+      logo: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMhE8INtZ9nb7fR2Rz9BfpRK1f26NMv6DO_7YPjf_PRpD8BtQeTGDjDN8dXtZtpMDOP9tsFxc2QLWvdjNj10f5Ng3fIFj5szRWonrPekvxD6kdA2GaPNRtnlfhF_1wh9J8qDUqR3BFpZ8/s1600/GCI+-+Vertical+-+Gray+Text+-+White+BG.png",
+      category: "badge",
+      skills: ["Version Control", "Open Source Contribution", "Python"]
     }
   ];
 
