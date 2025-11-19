@@ -47,11 +47,7 @@ const About = () => {
 
         <Card className="p-8 bg-card/50 backdrop-blur-sm border-border">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            I'm a Computer Science Engineering student with a deep fascination for software development 
-            and emerging technologies. My journey in tech began with a curiosity about how things work, 
-            which has evolved into a commitment to building solutions that make a difference. I'm constantly 
-            learning new technologies, participating in hackathons, and contributing to open-source projects. 
-            My goal is to leverage my skills to create impactful applications that solve real-world problems.
+            A highly technical computer science student at IIIT Bangalore with deep expertise in network congestion control algorithms, machine learning, and software engineering. Actively engaged in research, academic projects, and competitive programming with a focus on algorithm design and systems architecture. Achieved a top 10 global rank in Google Code-In and secured the highest marks among school peers in board examinations. Developed production-ready e-commerce platforms and led research projects in deepfake detection, demonstrating innovation and technical leadership. Passionate about problem-solving and continuous growth through hackathons, tech events, and impactful community initiatives.
           </p>
         </Card>
       </div>
