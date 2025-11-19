@@ -17,14 +17,14 @@ interface Certification {
 const Certifications = () => {
   const certifications: Certification[] = [
     {
-      title: "AWS Certified Solutions Architect - Associate",
-      issuer: "Amazon Web Services",
-      issueDate: "March 2024",
-      credentialId: "AWS-12345-67890",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=100&h=100&fit=crop",
-      category: "certification",
-      skills: ["Cloud Architecture", "AWS Services", "Infrastructure"]
+      title: "Google Code-in 2019 - World Top 10",
+      issuer: "Google Code-in",
+      issueDate: "January 2020",
+      credentialId: "6312418381135872",
+      verificationUrl: "https://drive.google.com/file/d/1ixwoyIKkqs7MdWxXpza4YTs6il4zfL2x/view?usp=sharing",
+      logo: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMhE8INtZ9nb7fR2Rz9BfpRK1f26NMv6DO_7YPjf_PRpD8BtQeTGDjDN8dXtZtpMDOP9tsFxc2QLWvdjNj10f5Ng3fIFj5szRWonrPekvxD6kdA2GaPNRtnlfhF_1wh9J8qDUqR3BFpZ8/s1600/GCI+-+Vertical+-+Gray+Text+-+White+BG.png",
+      category: "badge",
+      skills: ["Version Control", "Open Source Contribution", "Python"]
     },
     {
       title: "Full Stack Web Development Specialization",
