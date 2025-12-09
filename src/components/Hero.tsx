@@ -45,17 +45,17 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-4 justify-center pt-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Mushmat" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost" className="hover-glow">
                 <Github className="h-5 w-5" />
               </Button>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/chirayu1803" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost" className="hover-glow">
                 <Linkedin className="h-5 w-5" />
               </Button>
             </a>
-            <a href="mailto:student@example.com">
+            <a href="mailto:edu.chirayu2005@gmail.com">
               <Button size="icon" variant="ghost" className="hover-glow">
                 <Mail className="h-5 w-5" />
               </Button>
