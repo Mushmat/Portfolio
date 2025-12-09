@@ -12,13 +12,13 @@ const Resume = () => {
     },
     {
       icon: Briefcase,
-      value: "12+",
+      value: "6+",
       label: "Projects Completed",
       color: "text-primary"
     },
     {
       icon: Code2,
-      value: "15+",
+      value: "10+",
       label: "Technologies Mastered",
       color: "text-primary"
     },
@@ -31,11 +31,14 @@ const Resume = () => {
   ];
 
   const handleDownload = () => {
-    // In a real application, this would link to an actual PDF file
-    // For now, it shows a placeholder action
-    console.log("Downloading resume...");
-    // You can replace this with: window.open('/path-to-your-resume.pdf', '_blank');
-  };
+    // Direct download link for Google Drive file (fileId extracted from sharing URL)
+    const fileId = '1lDCg7NC0wddtZRZfUvpUpMxF2hYPdmEV';
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    
+    // Trigger download in new tab
+    window.open(downloadUrl, '_blank');
+};
+
 
   return (
     <section id="resume" className="py-20 px-4">
