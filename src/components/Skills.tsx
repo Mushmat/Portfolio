@@ -9,7 +9,7 @@ const Skills = () => {
     },
     {
       category: "Frontend",
-      skills: ["React", "Next.js", "Tailwind CSS", "HTML/CSS", "Redux"]
+      skills: ["React", "Next.js", "Tailwind CSS", "HTML/CSS"]
     },
     {
       category: "Backend",
@@ -20,9 +20,14 @@ const Skills = () => {
       skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis"]
     },
     {
+      category: "Cybersecurity",
+      skills: ["NMap", "Wireshark", "Snort"]
+    },
+    {
       category: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "Linux", "Agile", "CI/CD"]
+      skills: ["Git", "Docker", "AWS", "Linux", "Agile", "CI/CD", "Vercel", "Render"]
     }
+
   ];
 
   return (

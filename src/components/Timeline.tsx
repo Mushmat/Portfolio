@@ -204,83 +204,94 @@ const Timeline = () => {
   const timelineData: Omit<TimelineItemProps, "index">[] = [
     {
       type: "education",
-      title: "Bachelor of Technology in Computer Science",
-      organization: "University Name",
-      location: "City, Country",
-      date: "2021 - Present",
+      title: "Integrated Master of Technology in Computer Science",
+      organization: "International Institute of Information Technology, Bangalore",
+      location: "Bangalore, India",
+      date: "2023 - Present",
       description: "Pursuing a comprehensive degree in Computer Science with focus on software engineering, algorithms, and emerging technologies.",
       achievements: [
-        "Current CGPA: 8.5/10.0",
-        "Dean's List for Academic Excellence",
-        "Active member of Google Developer Student Club"
+        "Current CGPA: 3.1/4.0",
+        "Organizer, Synergy'25 - The Annual Tech Fest of IIIT-B"
       ]
     },
     {
-      type: "hackathon",
-      title: "Winner - National Hackathon 2024",
-      organization: "TechFest 2024",
-      location: "Metro City",
-      date: "March 2024",
-      description: "Led a team to develop an AI-powered healthcare solution that won first place among 150+ participating teams.",
+      type: "milestone",
+      title: "Organizer - Synergy'25: The Annual Tech Fest of IIIT-B",
+      organization: "International Institute of Information Technology, Bangalore",
+      location: "Bangalore, India",
+      date: "November 2025",
+      description: "Managed ₹12L + budget and 8,000+ footfall, onboarding 100+ volunteers",
       achievements: [
-        "Developed ML model with 94% accuracy",
-        "Presented solution to industry experts",
-        "Won $5,000 prize and mentorship opportunity"
-      ],
-      technologies: ["Python", "TensorFlow", "React", "FastAPI"]
+        "Highest footfall in all the editions of Synergy",
+        "Exclusive hackathon with prize pool of $5,000",
+        "End-to-end operations management"
+      ]
     },
     {
       type: "internship",
-      title: "Software Engineering Intern",
-      organization: "Tech Innovations Inc.",
-      location: "Tech Hub City",
-      date: "Jun 2023 - Aug 2023",
-      description: "Worked on full-stack development projects, contributing to production applications used by thousands of users.",
+      title: "Summer Full-Stack Developer Intern",
+      organization: "Furnicasa Privated Limited",
+      location: "Jaipur, India",
+      date: "Apr 2025 - Jul 2025",
+      description: "Built Furnicasa, a full-stack furniture e-commerce site from scratch: React (Vite + Tailwind) front end, Node/Express + MongoDB API, JWT auth, live Razorpay checkout, PWA caching, and CI/CD to Vercel—delivering sub-50 KB first-load performance.",
       achievements: [
-        "Developed 3 major features for production app",
-        "Improved application performance by 30%",
+        "Concept to live launch in 8 weeks",
+        "Optimized for < 50 KB first-load",
         "Collaborated with cross-functional teams"
       ],
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS"]
+      technologies: ["React", "Node.js", "MongoDB", "Razorpay"]
+    },
+    {
+      type: "internship",
+      title: "App Developer & Entry-Level Pentester",
+      organization: "Freelancer",
+      location: "Bangalore, India",
+      date: "Apr 2024 - Present",
+      description: "App Developer & Freelance pentester supporting small businesses with lightweight security assessments focused on OWASP‑top risks",
+      achievements: [
+        "Increased client-sales by 50%",
+        "Lifted monthly active users by 70% and repeat purchases 35%",
+        "Identified 30+ volunerabilites & reduced critical risks by 40% for a startup"
+      ],
+      technologies: ["Wireshark", "Kotlin", "Snort", "NMap"]
     },
     {
       type: "milestone",
-      title: "Published Research Paper",
-      organization: "International Conference on AI",
-      location: "Conference City",
-      date: "January 2024",
-      description: "Co-authored and presented a research paper on machine learning optimization techniques at an international conference.",
+      title: "Global Top-10 in Google Code-in 2019",
+      organization: "Google Code-in",
+      location: "Jaipur, India",
+      date: "2019",
+      description: "Recognized as a Global Top 10 Finalist in the Google Code-In 2019 challenge for exceptional contributions to open source software.",
       achievements: [
-        "Paper accepted in peer-reviewed conference",
-        "Presented findings to 200+ attendees",
-        "Received positive feedback from researchers"
+        "Researched Google Earth-based flight simulators",
+        "Led to the innovations adopted by 500+ global developers"
       ]
     },
     {
-      type: "hackathon",
-      title: "2nd Place - College CodeFest",
-      organization: "University Annual Hackathon",
-      location: "Campus",
-      date: "October 2023",
-      description: "Built a collaborative project management tool with real-time features in 24 hours.",
+      type: "milestone",
+      title: "Published Book: Game of Blood - The Cursed Magician",
+      organization: "",
+      location: "Jaipur, India",
+      date: "January 2018",
+      description: "Authored in Class 7th, Game of Blood: The Cursed Magician is an imaginative literary work blending elements of fantasy and mystery.",
       achievements: [
-        "Implemented WebSocket for real-time updates",
-        "Created intuitive UI/UX design",
-        "Managed team of 4 developers"
-      ],
-      technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind CSS"]
+        "120-page paperback",
+        "500 copies sold within the first year"
+      ]
     },
     {
-      type: "milestone",
-      title: "Open Source Contributor",
-      organization: "Various Projects on GitHub",
-      location: "Remote",
-      date: "2022 - Present",
-      description: "Active contributor to open-source projects with 100+ contributions across multiple repositories.",
+      type: "education",
+      title: "High-School Diploma",
+      organization: "Bharatiya Vidya Bhavan Vidyashram, Pratap Nagar",
+      location: "Jaipur, India",
+      date: "2012 - 2023",
+      description: "Completed high school education with strong foundation in mathematics, physics, and computer fundamentals, achieving top performance in JEE Advanced (Top 1%).",
       achievements: [
-        "Contributed to 10+ open-source projects",
-        "Fixed critical bugs in popular libraries",
-        "Helped improve documentation and tests"
+        "Class XII - 96.8%",
+        "Scholar's Blazer & Stream Topper - Science",
+        "Perfect Scorer - Informatics Practices",
+        "Cultural Head Boy - Batch 2022-23",
+        "Organizer, Bhavans MUN"
       ]
     }
   ];

@@ -9,7 +9,6 @@ const Projects = () => {
       title: "Furnicasa Website",
       description: "Full-stack furniture e-commerce platform with product catalog management, secure user authentication, shopping cart and checkout flow, online payments, and admin dashboard for orders and inventory control.",
       tech: ["React", "Node.js", "MongoDB", "Razorpay"],
-      github:"Hidden due to privacy reasons",
       demo: "www.furnicasa.in"
     },
     {
