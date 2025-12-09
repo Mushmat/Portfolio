@@ -6,32 +6,29 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce application with payment integration, user authentication, and admin dashboard",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "#",
-      demo: "#"
+      title: "Furnicasa Website",
+      description: "Full-stack furniture e-commerce platform with product catalog management, secure user authentication, shopping cart and checkout flow, online payments, and admin dashboard for orders and inventory control.",
+      tech: ["React", "Node.js", "MongoDB", "Razorpay"],
+      demo: "www.furnicasa.in"
     },
     {
-      title: "AI Task Manager",
-      description: "Smart task management app using machine learning to prioritize tasks and predict deadlines",
-      tech: ["Python", "TensorFlow", "Flask", "React"],
-      github: "#",
-      demo: "#"
+      title: "ML Model for Deepfake Detection",
+      description: "End-to-end deepfake image detection ML model using CNNs and computer vision for high-accuracy classification, with dataset curation, preprocessing, feature extraction, and data augmentation to ensure resilience against misinformation.",
+      tech: ["Python", "TensorFlow/Keras", "scikit-learn", "Flask", "OpenCV", "Pandas", "NumPy"],
+      github: "https://github.com/Mushmat/Predicathon"
     },
     {
-      title: "Real-time Chat Application",
-      description: "Scalable chat application with WebSocket support, file sharing, and group chat features",
-      tech: ["Next.js", "Socket.io", "PostgreSQL", "Redis"],
-      github: "#",
-      demo: "#"
+      title: "Pet Adoption Application Prototype",
+      description: "A prototype for a pet adoption platform that simplifies the process of finding and adopting dogs and cats.",
+      tech: ["Kotlin", "Jetpack Compose", "Firebase", "Room", "Android Studio"],
+      github: "https://github.com/Mushmat/Wiggles",
+      demo: "https://drive.google.com/file/d/1dyrvzFw9_2jPOnSyAxuP53zmnrjAMKj9/view"
     },
     {
-      title: "Code Snippet Manager",
-      description: "Developer tool for organizing, searching, and sharing code snippets with syntax highlighting",
-      tech: ["TypeScript", "Express", "Prisma", "Tailwind"],
-      github: "#",
-      demo: "#"
+      title: "Student Management System",
+      description: "Software to manage students, courses, and faculty end-to-end. ",
+      tech: ["Java", "Swing", "MySQL", "C++", "JDBC"],
+      github: "https://github.com/Mushmat/StudentManagementSystem"
     }
   ];
 
