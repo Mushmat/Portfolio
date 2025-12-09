@@ -18,7 +18,7 @@ const Certifications = () => {
   const certifications: Certification[] = [
     
     {
-      title: "First Ethical Hacking Course",
+      title: "First Course on Ethical Hacking",
       issuer: "ZSecurity/Udemy",
       issueDate: "June 2025",
       credentialId:"UC-57aadc7b-5f31-49bd-9e9d-60bf91eaaee7",
@@ -38,51 +38,14 @@ const Certifications = () => {
       skills: ["Snort", "Intrusion Detection", "Firewall Management"]
     },
     {
-      title: "Machine Learning with Python",
-      issuer: "IBM",
-      issueDate: "November 2023",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=100&h=100&fit=crop",
-      category: "course",
-      skills: ["Python", "Machine Learning", "Data Science"]
-    },
-    {
-      title: "GitHub Actions Certification",
-      issuer: "GitHub",
-      issueDate: "October 2023",
-      credentialId: "GH-ACTIONS-55555",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=100&h=100&fit=crop",
-      category: "badge",
-      skills: ["CI/CD", "DevOps", "Automation"]
-    },
-    {
-      title: "React - The Complete Guide",
+      title: "Course on Android 14 & Kotlin Development",
       issuer: "Udemy",
-      issueDate: "September 2023",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=100&h=100&fit=crop",
+      issueDate: "July 2024",
+      credentialId: "UC-ab66b3ca-beaf-428b-9d7e-af5125516f21",
+      verificationUrl: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-ab66b3ca-beaf-428b-9d7e-af5125516f21.pdf",
+      logo: "https://scontent.fudr2-1.fna.fbcdn.net/v/t39.30808-1/308659204_462000859297536_2030791871659361058_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=EBxoH16UDgIQ7kNvwFaRsVl&_nc_oc=Adm82BN4VhZv-RHtrYFl-A3uaZY0c9xsnvpBSBlJ7vtrygqzORGo9h269Y-oV2MZDv-Jv-sBiKSOOo3FallNBnqf&_nc_zt=24&_nc_ht=scontent.fudr2-1.fna&_nc_gid=gylna7RV0Wfqwq6l9IJfdA&oh=00_Afn6KfADSZjCOgaGDgBtKAc3nw4zbKzFmM8KmD270ivhFA&oe=693DC7FF",
       category: "course",
-      skills: ["React", "Redux", "Hooks", "Context API"]
-    },
-    {
-      title: "Certified Ethical Hacker (CEH)",
-      issuer: "EC-Council",
-      issueDate: "August 2023",
-      credentialId: "CEH-77777-88888",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100&h=100&fit=crop",
-      category: "certification",
-      skills: ["Cybersecurity", "Penetration Testing", "Security"]
-    },
-    {
-      title: "Docker Mastery",
-      issuer: "Docker Inc.",
-      issueDate: "July 2023",
-      verificationUrl: "#",
-      logo: "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=100&h=100&fit=crop",
-      category: "badge",
-      skills: ["Docker", "Containerization", "Microservices"]
+      skills: ["Kotlin", "Jetpack Compose", "Secure Apps"]
     },
     {
       title: "Google Code-in 2019 - World Top 10",
