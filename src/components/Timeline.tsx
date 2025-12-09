@@ -60,15 +60,15 @@ const TimelineItem = ({ type, title, organization, location, date, description, 
   return (
     <div
       ref={itemRef}
-      className={`relative flex items-center gap-8 mb-12 transition-all duration-700 ${
+      className={`flex flex-col lg:flex-row items-center justify-between gap-8 mb-12 transition-all duration-700 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
-      {/* Left side content for even items */}
-      <div className={`flex-1 ${isEven ? "text-right" : "order-3"}`}>
+      {/* Left side content - only for even indices (left-aligned on desktop) */}
+      <div className={`w-full lg:w-5/12 ${isEven ? "lg:text-right order-1" : "lg:order-3 hidden lg:block"}`}>
         {isEven && (
-          <Card className="p-6 bg-card border-border hover-glow transition-all duration-300 inline-block w-full">
+          <Card className="p-6 bg-card border-border hover-glow transition-all duration-300 w-full">
             <div className="space-y-3">
               <div className="flex items-start justify-between gap-4 flex-row-reverse">
                 <Badge variant="secondary" className="bg-primary/10 text-primary">
@@ -116,7 +116,7 @@ const TimelineItem = ({ type, title, organization, location, date, description, 
       </div>
 
       {/* Center timeline indicator */}
-      <div className="relative flex flex-col items-center z-10 order-2">
+      <div className="flex flex-col items-center z-10 w-24 lg:w-32 order-2">
         <div
           className={`w-16 h-16 rounded-full bg-primary flex items-center justify-center text-primary-foreground shadow-lg transition-all duration-500 ${
             isVisible ? "scale-100 rotate-0" : "scale-0 rotate-180"
@@ -127,10 +127,10 @@ const TimelineItem = ({ type, title, organization, location, date, description, 
         </div>
       </div>
 
-      {/* Right side content for odd items */}
-      <div className={`flex-1 ${!isEven ? "text-left" : "order-1"}`}>
+      {/* Right side content - only for odd indices (right-aligned on desktop) */}
+      <div className={`w-full lg:w-5/12 ${!isEven ? "lg:text-left order-3" : "lg:order-1 hidden lg:block"}`}>
         {!isEven && (
-          <Card className="p-6 bg-card border-border hover-glow transition-all duration-300 inline-block w-full">
+          <Card className="p-6 bg-card border-border hover-glow transition-all duration-300 w-full">
             <div className="space-y-3">
               <div className="flex items-start justify-between gap-4">
                 <Badge variant="secondary" className="bg-primary/10 text-primary">
@@ -176,9 +176,58 @@ const TimelineItem = ({ type, title, organization, location, date, description, 
           </Card>
         )}
       </div>
+
+      {/* Mobile: Center card for all items */}
+      <div className="lg:hidden w-full order-1">
+        <Card className="p-6 bg-card border-border hover-glow transition-all duration-300 w-full mx-auto max-w-2xl">
+          <div className="space-y-3 text-center">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Badge variant="secondary" className="bg-primary/10 text-primary">
+                {type.charAt(0).toUpperCase() + type.slice(1)}
+              </Badge>
+              <div className="flex items-center gap-2 text-muted-foreground text-sm">
+                <Calendar className="h-4 w-4" />
+                <span>{date}</span>
+              </div>
+            </div>
+            
+            <h3 className="text-xl font-semibold">{title}</h3>
+            <p className="font-medium text-primary">{organization}</p>
+            
+            <div className="flex items-center justify-center gap-2 text-muted-foreground">
+              <MapPin className="h-4 w-4" />
+              <span className="text-sm">{location}</span>
+            </div>
+            
+            <p className="text-muted-foreground leading-relaxed">{description}</p>
+            
+            {achievements && achievements.length > 0 && (
+              <ul className="space-y-2 text-sm max-w-md mx-auto">
+                {achievements.map((achievement, idx) => (
+                  <li key={idx} className="flex items-center gap-2 justify-center">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
+                    <span className="text-muted-foreground">{achievement}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            
+            {technologies && technologies.length > 0 && (
+              <div className="flex flex-wrap gap-2 justify-center">
+                {technologies.map((tech, idx) => (
+                  <Badge key={idx} variant="outline" className="text-xs">
+                    {tech}
+                  </Badge>
+                ))}
+              </div>
+            )}
+          </div>
+        </Card>
+      </div>
     </div>
   );
 };
+
 
 const Timeline = () => {
   const timelineRef = useRef<HTMLDivElement>(null);
