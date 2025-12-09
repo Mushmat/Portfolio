@@ -93,7 +93,7 @@ const Certifications = () => {
             Certifications & <span className="text-gradient">Credentials</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Professional certifications, completed courses, and technical achievements that validate my expertise
+            Professional certifications, completed courses, technical and other achievements that validate my expertise
           </p>
         </div>
 

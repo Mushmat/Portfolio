@@ -4,15 +4,14 @@ import { Mail, MapPin, Phone, Github, Linkedin, Twitter } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "student@example.com", href: "mailto:student@example.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, label: "Location", value: "City, Country", href: "#" }
+    { icon: Mail, label: "Email", value: "edu.chirayu2005@gmail.com", href: "mailto:edu.chirayu2005@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+91 81144 89928", href: "tel:+918114489928" },
+    { icon: MapPin, label: "Location", value: "Bengaluru, Karnataka", href: "#" }
   ];
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "https://github.com" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-    { icon: Twitter, label: "Twitter", href: "https://twitter.com" }
+    { icon: Github, label: "GitHub", href: "https://github.com/Mushmat" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/chirayu1803" }
   ];
 
   return (
