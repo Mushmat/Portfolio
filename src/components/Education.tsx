@@ -4,18 +4,18 @@ import { GraduationCap, Award, Calendar } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "University Name",
-      period: "2021 - 2025",
-      details: "CGPA: 8.5/10.0 | Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
+      degree: "Integrated Master of Technology in Computer Science",
+      institution: "International Institute of Information Technology, Bangalore",
+      period: "2023 - 2028",
+      details: "CGPA: 3.1/4 | Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
     }
   ];
 
   const achievements = [
-    "Winner - College Hackathon 2024",
-    "Top 10% in Competitive Programming Contest",
-    "Published Research Paper on Machine Learning",
-    "Google Developer Student Club Lead"
+    "Best Delegate at T-Summit 9.0",
+    "Stream Topper (Batch 2023 -- BVB Vidyashram)",
+    "Perfect Scorer in Informatics Practices",
+    "Global Top-10 in Google Code-in 2019"
   ];
 
   return (
