@@ -26,6 +26,27 @@ const Projects = () => {
       demo: "https://drive.google.com/file/d/1dyrvzFw9_2jPOnSyAxuP53zmnrjAMKj9/view"
     },
     {
+      title: "Hotel Property Value Projection",
+      description: "A prototype for a hotel property value projection system that estimates real estate prices using historical data and key property features to support data-driven valuation decisions.",
+      tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+      github: "https://github.com/Mushmat/Hotel_Property_Value_Projection",
+      demo: "https://github.com/Mushmat/Hotel_Property_Value_Projection"
+    },
+    {
+      title: "Financial Risk Profiling System",
+      description: "A prototype for a financial risk profiling system that classifies investor risk tolerance into categories such as low, medium, and high using demographic and financial behavior data. It implements end-to-end preprocessing, model training, evaluation, and prediction to support tailored investment recommendations.",
+      tech: ["Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "joblib", "SHAP"],
+      github: "https://github.com/Mushmat/Financial_Risk_Profiling",
+      demo: "https://github.com/Mushmat/Financial_Risk_Profiling"
+    },
+    {
+      title: "Academia Portal",
+      description: "Academia Portal is a comprehensive web platform for managing academic resources, enabling secure file sharing, course material organization, and role-based access for students and faculty.",
+      tech: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
+      github: "https://github.com/Mushmat/academia_portal",
+      demo: "https://github.com/Mushmat/academia_portal"
+    },
+    {
       title: "Student Management System",
       description: "Software to manage students, courses, and faculty end-to-end. ",
       tech: ["Java", "Swing", "MySQL", "C++", "JDBC"],
