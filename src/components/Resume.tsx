@@ -32,7 +32,7 @@ const Resume = () => {
 
   const handleDownload = () => {
     // Direct download link for Google Drive file (fileId extracted from sharing URL)
-    const fileId = '1lDCg7NC0wddtZRZfUvpUpMxF2hYPdmEV';
+    const fileId = '19Q1M1FUuYLSXRfdaAIfd7AKoEXDqkM';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
     
     // Trigger download in new tab
