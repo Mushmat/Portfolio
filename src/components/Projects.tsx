@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Furnicasa Website",
       description: "Full-stack furniture e-commerce platform with product catalog management, secure user authentication, shopping cart and checkout flow, online payments, and admin dashboard for orders and inventory control.",
       tech: ["React", "Node.js", "MongoDB", "Razorpay"],
-      demo: "www.furnicasa.in"
+      demo: "https://furnicasa.in"
     },
     {
       title: "ML Model for Deepfake Detection",
