@@ -12,6 +12,13 @@ const Projects = () => {
       demo: "https://furnicasa.in"
     },
     {
+      title: "TUF Calendar UI",
+      description: "Modern glassmorphism-inspired interactive calendar interface showcasing advanced frontend UI/UX design, responsive animations, dynamic event visualization, and smooth user interactions.",
+      tech: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      github: "https://github.com/Mushmat/TUF_Calendar",
+      demo: "https://mushmatcalendar.vercel.app/"
+    },
+    {
       title: "ML Model for Deepfake Detection",
       description: "End-to-end deepfake image detection ML model using CNNs and computer vision for high-accuracy classification, with dataset curation, preprocessing, feature extraction, and data augmentation to ensure resilience against misinformation.",
       tech: ["Python", "TensorFlow/Keras", "scikit-learn", "Flask", "OpenCV", "Pandas", "NumPy"],
