@@ -3,32 +3,61 @@ import { Card } from "@/components/ui/card";
 
 const Skills = () => {
   const skillCategories = [
-    {
-      category: "Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL"]
-    },
-    {
-      category: "Frontend",
-      skills: ["React", "Next.js", "Tailwind CSS", "HTML/CSS"]
-    },
-    {
-      category: "Backend",
-      skills: ["Node.js", "Express", "Django", "REST APIs", "GraphQL"]
-    },
-    {
-      category: "Database",
-      skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis"]
-    },
-    {
-      category: "Cybersecurity",
-      skills: ["NMap", "Wireshark", "Snort"]
-    },
-    {
-      category: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "Linux", "Agile", "CI/CD", "Vercel", "Render"]
-    }
-
-  ];
+  {
+    category: "Languages",
+    skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL"]
+  },
+  {
+    category: "Frontend",
+    skills: ["React", "Next.js", "Tailwind CSS", "HTML/CSS"]
+  },
+  {
+    category: "Backend",
+    skills: [
+      "Node.js",
+      "Express",
+      "Django",
+      "REST APIs",
+      "GraphQL",
+      "MapReduce"
+    ]
+  },
+  {
+    category: "Database",
+    skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Hive"]
+  },
+  {
+    category: "Cybersecurity",
+    skills: [
+      "NMap",
+      "Wireshark",
+      "Snort",
+      "Burp Suite",
+      "Metasploit"
+    ]
+  },
+  {
+    category: "Big Data",
+    skills: ["Pig"]
+  },
+  {
+    category: "Networking & Simulation",
+    skills: ["NS3"]
+  },
+  {
+    category: "Tools & Others",
+    skills: [
+      "Git",
+      "Docker",
+      "AWS",
+      "Linux",
+      "Agile",
+      "CI/CD",
+      "Vercel",
+      "Render"
+    ]
+  }
+];
 
   return (
     <section id="skills" className="py-20 px-4 bg-muted/30">
