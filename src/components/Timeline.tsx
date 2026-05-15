@@ -281,7 +281,7 @@ const Timeline = () => {
       title: "Teaching Assistant | Database Systems Lab",
       organization: "IIIT Bangalore",
       location: "Bangalore, India",
-      date: "Jan 2026 - Present",
+      date: "Jan 2026 - May 2026",
       description: "Serving as a Teaching Assistant for Database Systems Lab, mentoring and guiding 50+ students throughout the semester on relational modeling, SQL, normalization, indexing, and transaction concepts.",
       achievements: [],
       technologies: ["JDBC", "MySQL"]

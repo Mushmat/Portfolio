@@ -12,13 +12,13 @@ const Resume = () => {
     },
     {
       icon: Briefcase,
-      value: "6+",
+      value: "9+",
       label: "Projects Completed",
       color: "text-primary"
     },
     {
       icon: Code2,
-      value: "10+",
+      value: "14+",
       label: "Technologies Mastered",
       color: "text-primary"
     },
@@ -31,7 +31,7 @@ const Resume = () => {
   ];
 
   const handleDownload = () => {
-  const fileId = '19Q1M-1FUuYLSXRfd-aAIfd7AKoEXDqkM';
+  const fileId = '1hZiAaSMHiRzQPraHq0OZnDX46AAEFuG4';
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
   window.open(downloadUrl, '_blank');
 };
