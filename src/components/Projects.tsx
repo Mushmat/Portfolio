@@ -19,6 +19,13 @@ const Projects = () => {
       demo: "https://mushmatcalendar.vercel.app/"
     },
     {
+      title: "EduCache",
+      description: "Offline-first AI learning platform enabling semantic knowledge caching, offline concept retrieval, rule-based answer reconstruction, and peer-to-peer knowledge sharing for low-connectivity regions.",
+      tech: ["Flutter", "Dart", "FastAPI", "Hive", "SQLite", "OpenAI API"],
+      github: "https://github.com/Mushmat/EduCache",
+      demo: "https://drive.google.com/file/d/1KN-4EOgJn2yb8JtNji5LNKJ3GBFydiRW/view"
+    },
+    {
       title: "ML Model for Deepfake Detection",
       description: "End-to-end deepfake image detection ML model using CNNs and computer vision for high-accuracy classification, with dataset curation, preprocessing, feature extraction, and data augmentation to ensure resilience against misinformation.",
       tech: ["Python", "TensorFlow/Keras", "scikit-learn", "Flask", "OpenCV", "Pandas", "NumPy"],
