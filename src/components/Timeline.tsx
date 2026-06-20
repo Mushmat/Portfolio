@@ -259,7 +259,7 @@ const Timeline = () => {
       date: "2023 - Present",
       description: "Pursuing a comprehensive degree in Computer Science with focus on software engineering, algorithms, and emerging technologies.",
       achievements: [
-        "Current CGPA: 3.1/4.0",
+        "Current CGPA: 3.13/4.0",
         "Organizer, Synergy'25 - The Annual Tech Fest of IIIT-B"
       ]
     },
