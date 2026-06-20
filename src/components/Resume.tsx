@@ -31,7 +31,7 @@ const Resume = () => {
   ];
 
   const handleDownload = () => {
-  const fileId = '1hZiAaSMHiRzQPraHq0OZnDX46AAEFuG4';
+  const fileId = '19Q1M-1FUuYLSXRfd-aAIfd7AKoEXDqkM';
   const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
   window.open(downloadUrl, '_blank');
 };
